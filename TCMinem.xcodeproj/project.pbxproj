@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4079E985237A3D07004B6EB3 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4079E984237A3D07004B6EB3 /* Default-568h@2x.png */; };
+		4079E987237A3DD1004B6EB3 /* TCMXMLWriter.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 4079E986237A3DD0004B6EB3 /* TCMXMLWriter.podspec */; };
 		F2390BE913CF358900812997 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2390BE813CF358900812997 /* UIKit.framework */; };
 		F2390BEB13CF358900812997 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2390BEA13CF358900812997 /* Foundation.framework */; };
 		F2390BED13CF358900812997 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2390BEC13CF358900812997 /* CoreGraphics.framework */; };
@@ -30,6 +32,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4079E982237A3D01004B6EB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		4079E983237A3D02004B6EB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/RootViewController.xib; sourceTree = "<group>"; };
+		4079E984237A3D07004B6EB3 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		4079E986237A3DD0004B6EB3 /* TCMXMLWriter.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TCMXMLWriter.podspec; sourceTree = "<group>"; };
 		F2390BE413CF358900812997 /* TCMinem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TCMinem.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2390BE813CF358900812997 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F2390BEA13CF358900812997 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -40,10 +46,8 @@
 		F2390BF513CF358900812997 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F2390BF713CF358900812997 /* TCMinemAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCMinemAppDelegate.h; sourceTree = "<group>"; };
 		F2390BF813CF358900812997 /* TCMinemAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCMinemAppDelegate.m; sourceTree = "<group>"; };
-		F2390BFB13CF358900812997 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
 		F2390BFD13CF358900812997 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		F2390BFE13CF358900812997 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
-		F2390C0113CF358900812997 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
 		F2390C1413CF395D00812997 /* TCMXMLWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TCMXMLWriter.h; path = TCMXML/TCMXMLWriter.h; sourceTree = SOURCE_ROOT; };
 		F2390C1513CF395D00812997 /* TCMXMLWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TCMXMLWriter.m; path = TCMXML/TCMXMLWriter.m; sourceTree = SOURCE_ROOT; };
 		F2930E5313D44FAF00F0B0C3 /* fanboyspodcast.m4a.rss */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = fanboyspodcast.m4a.rss; sourceTree = "<group>"; };
@@ -86,6 +90,8 @@
 		F2390BD913CF358900812997 = {
 			isa = PBXGroup;
 			children = (
+				4079E986237A3DD0004B6EB3 /* TCMXMLWriter.podspec */,
+				4079E984237A3D07004B6EB3 /* Default-568h@2x.png */,
 				F2390BEE13CF358900812997 /* TCMinem */,
 				F2D9016913D0795F00E23494 /* UnitTests */,
 				F2390BE713CF358900812997 /* Frameworks */,
@@ -231,15 +237,16 @@
 		F2390BDB13CF358900812997 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0460;
+				LastUpgradeCheck = 1120;
 				ORGANIZATIONNAME = TheCodingMonkeys;
 			};
 			buildConfigurationList = F2390BDE13CF358900812997 /* Build configuration list for PBXProject "TCMinem" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = F2390BD913CF358900812997;
 			productRefGroup = F2390BE513CF358900812997 /* Products */;
@@ -258,6 +265,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F2390BF313CF358900812997 /* InfoPlist.strings in Resources */,
+				4079E987237A3DD1004B6EB3 /* TCMXMLWriter.podspec in Resources */,
+				4079E985237A3D07004B6EB3 /* Default-568h@2x.png in Resources */,
 				F2390BFC13CF358900812997 /* MainWindow.xib in Resources */,
 				F2390C0213CF358900812997 /* RootViewController.xib in Resources */,
 			);
@@ -327,7 +336,7 @@
 		F2390BFA13CF358900812997 /* MainWindow.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				F2390BFB13CF358900812997 /* en */,
+				4079E982237A3D01004B6EB3 /* Base */,
 			);
 			name = MainWindow.xib;
 			sourceTree = "<group>";
@@ -335,7 +344,7 @@
 		F2390C0013CF358900812997 /* RootViewController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				F2390C0113CF358900812997 /* en */,
+				4079E983237A3D02004B6EB3 /* Base */,
 			);
 			name = RootViewController.xib;
 			sourceTree = "<group>";
@@ -354,22 +363,42 @@
 		F2390C0313CF358900812997 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_VERSION = "";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -377,19 +406,37 @@
 		F2390C0413CF358900812997 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_VERSION = "";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 			};
@@ -409,6 +456,8 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TCMinem/TCMinem-Prefix.pch";
 				INFOPLIST_FILE = "TCMinem/TCMinem-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.codingmonkeys.TCMinem.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -427,6 +476,8 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TCMinem/TCMinem-Prefix.pch";
 				INFOPLIST_FILE = "TCMinem/TCMinem-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.codingmonkeys.TCMinem.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
@@ -452,7 +503,8 @@
 				);
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				INFOPLIST_FILE = "UnitTests/UnitTests-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.codingmonkeys.TCMinem.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = octest;
 			};
@@ -472,7 +524,8 @@
 				GCC_PREFIX_HEADER = "UnitTests/UnitTests-Prefix.pch";
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				INFOPLIST_FILE = "UnitTests/UnitTests-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.codingmonkeys.TCMinem.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = octest;
