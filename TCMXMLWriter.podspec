@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
         elegant cocoa XML marshalling with a small memory footprint description
                     DESC
     s.homepage     = "https://github.com/thom-ek/TCMXMLWriter"
-    s.license      = { :type => "MIT", :file => 'LICENSE' }
+    s.license      = { :type => "MIT" }
     s.author       = { 'thom-ek' => "thom@union.waw.pl" }
 
     s.source = {:git => 'https://github.com/thom-ek/TCMXMLWriter.git', :tag => s.version.to_s }
